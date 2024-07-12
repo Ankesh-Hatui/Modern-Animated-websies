@@ -1,0 +1,263 @@
+/* Bioler Plate code */
+#mini-circle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    background-color: #fff;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 999999;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans Medium";
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    background-color: #000;
+}
+#hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+#nav{
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav a{
+    color: #fff;
+    text-decoration: none;
+}
+#heading{
+    margin-top: 90px;
+}
+#heading h1{
+
+    font-size: 9vw;
+    opacity: .6;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-left: 30px;
+    font-weight: 900;
+
+}
+#bounding
+{
+    width: fit-content;
+    overflow: hidden;
+
+}
+#bounding .boundingEl
+{
+    transform: translateY(100%);
+}
+/* #heading #second-h1{
+    margin-left: 230px;
+    background-color: aqua;
+} */
+#sticky-heading
+{   
+    margin-left: 23vw;
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+    
+}
+#sticky-heading h5{
+    text-transform: uppercase;
+    font-size: 1vw;
+    text-align: right;
+    
+}
+#small-heading{
+
+    margin-top: 100px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#small-heading h5{
+    text-align: right;
+    margin-top: .6vw;
+    /* margin-top: 6px; */
+    text-transform: uppercase;
+    font-size: 1vw;
+}
+#hero-footer{
+    padding: 0 2vw;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero-footer a{
+    text-decoration: none;
+    color: #fff;
+
+}
+#hero-footer .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #888;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#hero-footer #icon-set
+{
+    display: flex;
+    gap: 5px;
+} 
+
+#second-hero{
+
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-color: #000;
+    padding-top: 15vw;
+    padding-right: 10vw;
+
+}
+.el
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888
+}
+
+.el h1{
+    text-transform: uppercase;
+    font-size: 7vw;
+    opacity: .7;
+}
+#second-hero .elLast{
+    border-bottom: 2px solid #fff;
+}
+
+.el img{
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+#about{
+    color: #fff;
+    margin-top: 10vw;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10vw;
+}
+#about img{
+    width: 200px;
+}
+#about a{
+    color: #fff;
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    text-decoration: none;
+    box-shadow:2px 0px 20px #fff;
+}
+#about a:hover{
+    /* color: black; */
+    border: none;
+    box-shadow:5px 5px 70px #fff;
+    
+}
+#text-about{
+    width: 20rem;
+    /* background-color: red; */
+}
+#text-about h5{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    opacity: .5;
+}
+#text-about p{
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+#subscribe
+{
+    color: #fff;
+    padding: 20px 30px;
+    background-color: black;
+    padding-bottom: 7vw;
+}
+
+#subscribe h5
+{
+    text-transform: uppercase;
+    opacity: .6;
+}
+#subscribe h3
+{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#main-footer
+{
+    color: #fff;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px;
+}
+
+#main-footer #left-footer
+{
+
+    display: flex;
+    gap: 20px;
+
+}
+
+#main-footer a
+{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration:none;
+    
+}
+#main-footer #right-footer
+{
+    display: flex;
+    gap: 20px;
+}
